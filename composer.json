@@ -1,0 +1,23 @@
+{
+    "name": "wtwei/alipay-sdk-PHP",
+    "type": "library",
+    "description": "alipay php sdk",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Alipay demo"
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.1",
+        "ext-curl": "*"
+    },
+    "autoload" : {
+        "psr-0":{"alipay":"src/"},
+        "files": [
+            "src/AopSdk.php"
+        ]
+
+    }
+}
