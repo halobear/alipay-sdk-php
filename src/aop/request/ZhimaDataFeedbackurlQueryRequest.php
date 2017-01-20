@@ -3,7 +3,7 @@
  * ALIPAY API: zhima.data.feedbackurl.query request
  *
  * @author auto create
- * @since 1.0, 2016-09-21 18:40:24
+ * @since 1.0, 2016-11-08 11:15:53
  */
 class ZhimaDataFeedbackurlQueryRequest
 {
@@ -19,7 +19,7 @@ class ZhimaDataFeedbackurlQueryRequest
 	private $apiVersion="1.0";
 	private $notifyUrl;
 	private $returnUrl;
-    private $needEncrypt=true;
+    private $needEncrypt=false;
 
 	
 	public function setBizContent($bizContent)

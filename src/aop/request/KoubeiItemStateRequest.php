@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.medical.card.query request
+ * ALIPAY API: koubei.item.state request
  *
  * @author auto create
- * @since 1.0, 2016-04-12 16:37:49
+ * @since 1.0, 2016-12-22 09:37:28
  */
-class AlipayCommerceMedicalCardQueryRequest
+class KoubeiItemStateRequest
 {
 	/** 
-	 * 医疗机构根据用户userId查询该账户的医保卡相关信息
+	 * 商品操作接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceMedicalCardQueryRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.medical.card.query";
+		return "koubei.item.state";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.ins.scene.application.apply request
+ * ALIPAY API: alipay.eco.welfare.code.sync request
  *
  * @author auto create
- * @since 1.0, 2016-07-22 13:36:41
+ * @since 1.0, 2016-11-02 19:53:47
  */
-class AlipayInsSceneApplicationApplyRequest
+class AlipayEcoWelfareCodeSyncRequest
 {
 	/** 
-	 * 投保受理
+	 * 福利平台用户订单外部核销接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayInsSceneApplicationApplyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.ins.scene.application.apply";
+		return "alipay.eco.welfare.code.sync";
 	}
 
 	public function setNotifyUrl($notifyUrl)

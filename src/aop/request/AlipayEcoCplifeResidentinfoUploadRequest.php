@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: zhima.credit.watchlistii.get request
+ * ALIPAY API: alipay.eco.cplife.residentinfo.upload request
  *
  * @author auto create
- * @since 1.0, 2016-09-21 18:43:10
+ * @since 1.0, 2016-12-07 22:14:29
  */
-class ZhimaCreditWatchlistiiGetRequest
+class AlipayEcoCplifeResidentinfoUploadRequest
 {
 	/** 
-	 * 行业关注名单
+	 * 物业小区业主信息上传
 	 **/
 	private $bizContent;
 
@@ -19,7 +19,7 @@ class ZhimaCreditWatchlistiiGetRequest
 	private $apiVersion="1.0";
 	private $notifyUrl;
 	private $returnUrl;
-    private $needEncrypt=true;
+    private $needEncrypt=false;
 
 	
 	public function setBizContent($bizContent)
@@ -35,7 +35,7 @@ class ZhimaCreditWatchlistiiGetRequest
 
 	public function getApiMethodName()
 	{
-		return "zhima.credit.watchlistii.get";
+		return "alipay.eco.cplife.residentinfo.upload";
 	}
 
 	public function setNotifyUrl($notifyUrl)

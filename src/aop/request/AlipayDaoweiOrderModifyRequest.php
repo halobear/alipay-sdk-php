@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: koubei.member.data.oauth.query request
+ * ALIPAY API: alipay.daowei.order.modify request
  *
  * @author auto create
- * @since 1.0, 2016-09-26 10:16:19
+ * @since 1.0, 2017-01-16 11:30:17
  */
-class KoubeiMemberDataOauthQueryRequest
+class AlipayDaoweiOrderModifyRequest
 {
 	/** 
-	 * 口碑业务授权令牌查询
+	 * 服务订单修改接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class KoubeiMemberDataOauthQueryRequest
 
 	public function getApiMethodName()
 	{
-		return "koubei.member.data.oauth.query";
+		return "alipay.daowei.order.modify";
 	}
 
 	public function setNotifyUrl($notifyUrl)

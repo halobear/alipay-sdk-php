@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.ins.scene.application.query request
+ * ALIPAY API: alipay.security.prod.fingerprint.verify.initialize request
  *
  * @author auto create
- * @since 1.0, 2016-07-22 13:36:47
+ * @since 1.0, 2017-01-12 17:27:23
  */
-class AlipayInsSceneApplicationQueryRequest
+class AlipaySecurityProdFingerprintVerifyInitializeRequest
 {
 	/** 
-	 * 保单查询
+	 * 指纹校验初始化
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayInsSceneApplicationQueryRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.ins.scene.application.query";
+		return "alipay.security.prod.fingerprint.verify.initialize";
 	}
 
 	public function setNotifyUrl($notifyUrl)

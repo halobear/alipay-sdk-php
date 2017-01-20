@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.data.send request
+ * ALIPAY API: zhima.credit.antifraud.verify request
  *
  * @author auto create
- * @since 1.0, 2016-07-26 16:34:35
+ * @since 1.0, 2016-12-28 15:07:22
  */
-class AlipayCommerceDataSendRequest
+class ZhimaCreditAntifraudVerifyRequest
 {
 	/** 
-	 * 行业数据发送接口
+	 * 欺诈信息验证
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceDataSendRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.data.send";
+		return "zhima.credit.antifraud.verify";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: zhima.credit.score.get request
+ * ALIPAY API: koubei.craftsman.data.provider.create request
  *
  * @author auto create
- * @since 1.0, 2016-09-21 19:02:16
+ * @since 1.0, 2017-01-13 16:26:55
  */
-class ZhimaCreditScoreGetRequest
+class KoubeiCraftsmanDataProviderCreateRequest
 {
 	/** 
-	 * 芝麻信用评分
+	 * 手艺人创建
 	 **/
 	private $bizContent;
 
@@ -19,7 +19,7 @@ class ZhimaCreditScoreGetRequest
 	private $apiVersion="1.0";
 	private $notifyUrl;
 	private $returnUrl;
-    private $needEncrypt=true;
+    private $needEncrypt=false;
 
 	
 	public function setBizContent($bizContent)
@@ -35,7 +35,7 @@ class ZhimaCreditScoreGetRequest
 
 	public function getApiMethodName()
 	{
-		return "zhima.credit.score.get";
+		return "koubei.craftsman.data.provider.create";
 	}
 
 	public function setNotifyUrl($notifyUrl)
