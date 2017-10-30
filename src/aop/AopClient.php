@@ -370,7 +370,7 @@ class AopClient {
 			}
 
 			// 执行加密
-			$enCryptContent = aop_encrypt($apiParams['biz_content'], $this->aop_encryptKey);
+			$enCryptContent = aop_encrypt($apiParams['biz_content'], $this->encryptKey);
 			$apiParams['biz_content'] = $enCryptContent;
 
 		}
