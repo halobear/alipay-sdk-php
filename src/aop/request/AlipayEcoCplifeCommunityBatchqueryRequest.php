@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.eco.cplife.community.batchquery request
  *
  * @author auto create
- * @since 1.0, 2017-01-14 11:36:39
+ * @since 1.0, 2017-02-10 18:55:25
  */
 class AlipayEcoCplifeCommunityBatchqueryRequest
 {

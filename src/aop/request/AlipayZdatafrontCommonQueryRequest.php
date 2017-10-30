@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.zdatafront.common.query request
  *
  * @author auto create
- * @since 1.0, 2017-01-12 16:49:35
+ * @since 1.0, 2017-07-24 16:28:03
  */
 class AlipayZdatafrontCommonQueryRequest
 {

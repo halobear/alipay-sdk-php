@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.marketing.campaign.cash.create request
  *
  * @author auto create
- * @since 1.0, 2017-01-12 20:29:59
+ * @since 1.0, 2017-10-24 11:01:42
  */
 class AlipayMarketingCampaignCashCreateRequest
 {
